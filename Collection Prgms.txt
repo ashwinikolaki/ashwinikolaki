@@ -1,6 +1,6 @@
 1)ArrayList
 import java.util.*;  
-class TestJavaCollection1{  
+class Collection1{  
 public static void main(String args[]){  
 ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
 list.add("Ravi");//Adding object in arraylist  
@@ -17,7 +17,7 @@ System.out.println(itr.next());
 
 2)LinkedList
 import java.util.*;  
-public class TestJavaCollection2{  
+public class Collection2{  
 public static void main(String args[]){  
 LinkedList<String> al=new LinkedList<String>();  
 al.add("Ravi");  
@@ -33,7 +33,7 @@ System.out.println(itr.next());
 
 3)VECTOR
 import java.util.*;  
-public class TestJavaCollection3{  
+public class Collection3{  
 public static void main(String args[]){  
 Vector<String> v=new Vector<String>();  
 v.add("Ayush");  
@@ -49,7 +49,7 @@ System.out.println(itr.next());
 
 4)Stack
 import java.util.*;  
-public class TestJavaCollection4{  
+public class Collection4{  
 public static void main(String args[]){  
 Stack<String> stack = new Stack<String>();  
 stack.push("Ayush");  
@@ -67,7 +67,7 @@ System.out.println(itr.next());
 
 5)ArrayDeque
 import java.util.*;  
-public class TestJavaCollection6{  
+public class Collection6{  
 public static void main(String[] args) {  
 //Creating Deque and adding elements  
 Deque<String> deque = new ArrayDeque<String>();  
